@@ -5,19 +5,19 @@
 }
 
 #contenedor{
-    width: 1300px;
+    width: 1250px;
     height: 1100px;
     /* background-color: gray; */
-    margin: 0.3cm auto;
+    margin: 0.5cm auto;
     padding: 0;
 }
 
 #header{
     height: 25%;
-    background-image: url('/img/comida.jpg'); 
+    background-image: url('/img/comida.jpg');
     /* background-repeat: no-repeat;  */
     /* background-repeat: repeat;  */
-    
+    /* background-color: plum; */
     background-size: 100% 100%;
     
     height: 400px;
@@ -25,7 +25,7 @@
     color: white; 
     font-size: 40px;   
          
-    margin: 0em;
+    margin: 0.1em;
     border-radius: 2em;
 
 }
@@ -50,10 +50,10 @@
 
 #nav{
     background-image: url('/img/huellas.png');
-    height: 5%;
+    height: 6%;
     font-size: 25px;
-    /* background-color: rgb(245, 242, 236); */
-    margin: 0.5em;
+    /* background-color: plum; */
+    margin: 0.1em;
     border-radius: 2em;
     color: rgb(201, 162, 162);
     text-align: center;
@@ -61,23 +61,24 @@
 }
 
 #contenido{
-    height: 53%;
+    height: 48%;
     
-    margin: 0.5em;        
+    margin: 0.2em;        
 }
 
 #section{
+    /* background-color: plum; */
     background-image: url('/img/ropa.jpg');
     background-repeat: no-repeat;
     height: 10px;
     width: 5px;  
 
-    height: 100%;
-    width: 15%;
+    height: 99%;
+    width: 19%;
     
     border-radius: 2em;
     margin-left: 00.1cm;    
-    float: left;
+    float:left;
 }
 
 ul.navbar {
@@ -104,32 +105,33 @@ a:visited{
 
 #aside{   
     
-    height: 100%;
-    width: 83%;
-    /* background-color: rgb(241, 228, 228); */
+    height: 99%;
+    width: 80%;
+    /* background-color: plum; */
     border-radius: 2em;
-    /* margin-right: 00.1cm;  */
+    /* margin-right: 00.1cm */
     margin-left: 000.1cm;
     float: right;
     
 }
 
 .redimension{
-    width: 330px;
-    height: 174px;
+    width: 245px;
+    height: 172px;
 }
 
 #footer{ 
-    /* background-image: url('/img/huellas.png'); */
-    height: 15%;
-    background-color: rgb(214, 221, 202);
-    margin: 0.5em;
+    background-color: plum;
+    /* background-image: url('/img/huellas.jpg') */
+    height: 10%;
+    
+    margin: 0.1em;
     border-radius: 2em;
     
     padding-left: 5em;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(93, 122, 201);
-    background-image: url('/img/espuma.jpg');    
+    background-image: url('/img/huellas.png');
     
 }
 .contact{
@@ -142,21 +144,23 @@ a:visited{
 
 
 .social{
-    width: 15px;
+    width: 10px;
     position: relative;
     top: 0.5em;
     right: 0;
 }
 
 .social{
-    top: 2em;
-    height: 2px;
+    top: 0.1em;
+    height: 1.5px;
     margin-right: 2cm;
     float: right;
 
 }
 
 .social{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 150px;
 }
+
+

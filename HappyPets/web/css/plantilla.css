@@ -15,13 +15,13 @@
 
 #header{
     height: 25%;
-    background-color: blue;   
+    background-color: plum; 
     margin: 0em;
     border-radius: 2em;
 }
 
 #nav{
-    background-color: chocolate;
+    background-color: plum;
     height: 5%;
     margin: 0.5em;
     border-radius: 2em;
