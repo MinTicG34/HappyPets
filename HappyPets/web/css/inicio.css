@@ -1,34 +1,25 @@
 body{
    margin: 0; 
    padding: 0;
-   background: url(../img/room.jpg) no-repeat center top;
+   background: rgb(230, 202, 206);
    background-size: cover;
    font-family: sans-serif;
 height: 100vh;
 }
 
-.banner{
-    background-color: #f0d1b8;
-    width: 160px;
-    height: 70px;
-    margin-top: 11px;
-    margin-left: 15px;
-    color: #333232;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 10px;
-    padding-top: 0.1px;
-    
-    
+.banner {
+    margin-top: 58px;
+    margin-left: 25px;
+    color: white;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .acceso{
     width: 320px;
     height: 420px;
-    background:  #f0d1b8;
-    color: #333232;
+    background: rgb(172, 154, 157);
+    color: white;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -45,6 +36,7 @@ height: 100vh;
     position: absolute;
     top: -50px;
     left:calc(50% - 50px) ;
+
 }
 
 .acceso h1{
@@ -82,7 +74,7 @@ height: 100vh;
     border: none;
     outline: none;
     height: 40px;
-    background: #dd8b48;
+    background: pink;
     color: #333232;
     font-size: 18px;
     border-radius: 20px;
