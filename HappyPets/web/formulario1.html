@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducir Inventario</title>
+    <link rel="stylesheet" href="css/formulario1.css">
+    </head>
+<body>
+    <form action="" class="formulario">
+        <fieldset><br>
+            <h4>Registro de inventario Pet Shop</h4><br>
+            <legend>Pet Shop</legend><br>           
+            <label for="fecha_Hora">Fecha_Hora:</label><br>
+            <input class="control" type="datetime-local" name="fechor" id="fecha_Hora" required><br><br>                
+
+            <label for="Id_Articulo">Id_Articulo:</label>
+            <input class="control" type="number" placeholder="Ej.123" id="Id_Articulo" required min="0"><br><br>
+
+            <label for="Nombre_Articulo">Nombre_Articulo:</label>
+            <input class="control" type="text" placeholder="Ej.Collar" id="Nombre_Articulo" required><br><br>
+
+            <label for="Cantidad_Articulos">Cantidad_Articulos:</label>
+            <input class="control" type="number" placeholder="Ej.123" id="Cantidad_Articulos" required min="0"><br><br>
+
+            <label for="Nombre_Proveedor">Nombre_Proveedor:</label>
+            <input class="control" type="text" placeholder="Ej.Carlos Perez" id="Nombre_Proveedor" required><br><br>
+
+            <label for="Email_Proveedor">Email_Proveedor:</label>
+            <input class="control" type="email" placeholder="Ejemplo@gmail.com" id="Email_Proveedor" required><br><br>
+
+            <label for="Categoria_Mascota">Categoria_Mascota</label>
+            <select>
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Hamster</option>
+                <option>Conejo</option>
+            </select><br><br>
+            <label>Categoria_Articulo</label>
+            <select>
+                <option>Aseo</option>
+                <option>Comida</option>
+                <option>Accesorios</option>
+                <option>Otro</option>
+            </select><br><br>
+
+            <label>Descripción_articulo:</label><br><br>
+            <textarea rows="5" cols="72"></textarea><br><br>            
+            <p>Estoy de acuerdo con <a href="#">Términos y condiciones</a></p>               
+            <input class="boton" type="submit" value="Registrar">
+            <input class="boton" type="reset" value="Borrar">  
+            <p>&copy;Copyright 2021 &#124; Pet Shop</p>             
+        </fieldset>
+    </form>
+    <hr>
+<script src='inventariops.js'></script>    
+</body>
+</html>
