@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f6f6;
+}
+table thead{
+  background-color: #24C799;
+  color: white;
+}
+
+h1{
+  padding-left: 10px;
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 0.5), 10px 3px 10px #c79c24,
+    15px 3px 20px black;
+}
+.header {
+  width: auto;
+  position: relative;
+  background: #fa8a14;
+  height: 80px;
+  padding-top: 0.1px;
+}
+
+.happy {
+  background-color: #c79c24;
+  height: 60px;
+  width: 200px;
+  text-shadow: 3px 3px 5px #16130b, 2px 3px 15px black, 3px 3px 2px white;
+  border-radius: 0px 25px 0px 0px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5), 10px 3px 20px #c79c24,
+    15px 3px 20px black;
+}
+
+.link {
+  text-decoration: none;
+  color: #f1f0ec;
+}
+
+.link-a {
+  margin-right: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #948047;
+  text-decoration: none;
+  color: #f1f0ec;
+  font-size: 1.2rem;
+  text-shadow: 3px 3px 5px #16130b, 2px 3px 15px black, 3px 3px 2px white;
+}
+
+.link-d {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+}
+
+/*|---------------------------------|
+|   estilos para ventana login-----|
+|---------------------------------|*/
+.contenedor .overLay {
+  /* fondo */
+  background: rgb(0, 0, 0, 0.5);
+  /* avarcar toda la pantalla */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* Centrar el formulario con respecto a la página */
+  display: flex;
+  /* alinear vertical */
+  align-items: center;
+  /* alinear horizontal */
+  justify-content: center;
+  visibility: hidden;
+}
+
+.contenedor .overLay.active {
+  visibility: visible;
+}
+
+.popUp {
+  /* fondo */
+  background: #fa8a14;
+  box-shadow: 0px 0px 5px 0px black;
+  border-radius: 3px;
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  transition: 0.5s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+}
+
+.popUp .btn-cerrar-popup {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  color: #948047;
+  transition: 0.3s ease all;
+  text-shadow: 1px 1px 2px #16130b, 1px 1px 15px #131616, 1px 1px 1px white;
+}
+
+.popUp .btn-cerrar-popup:hover {
+  color: #53fafb;
+}
+
+.popUp h3 {
+  color: #f1f0ec;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 5px #16130b, 1px 1px 15px #53fafb, 1px 1px 2px white;
+  opacity: 0%;
+}
+
+.popUp form .contenedorInputs {
+  border: none;
+  border-bottom: 1px solid #24C799;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #333232;
+  font-size: 14px;
+} 
+
+.popUp form .contenedorInputs input {
+  width: 100%;
+  background-color: #c79c24;
+  color: #f1f0ec;
+  margin-bottom: 20px;
+  height: 32px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: 1px solid #948047;
+}
+
+.popUp form .btnSubmit {
+  padding: 0px 40px;
+  margin-top: 50px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background-color: #24c799;
+  border-radius: 20px;
+  color: #f1f0ec;
+  text-shadow: 1px 1px 5px #16130b, 1px 1px 15px black, 1px 1px 2px white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.popUp form .btnSubmit:hover {
+  background: #53fafb;
+}
+
+.popUp form .liks {
+  text-decoration: none;
+  color: #f1f0ec;
+}
+
+.popUp form .liks:hover {
+  color: #4c4b45;
+}
+
+/*|---------------------------------|
+|       animaciones                |
+|---------------------------------|*/
+.popUp.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.popUp.active h3 {
+  animation: entrada 0.8s ease 0.3s forwards;
+}
+@keyframes entrada {
+  form {
+    transform: translateY(-125px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HappyPets</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/MyStyle.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="happy"><a class="link" href="#">HappyPets</a></h1>
+      <div class="link-d">
+        <a class="link-a" href="#" id="log">Identificarme </a>
+        <a class="link-a" href="#">Contactos</a>
+      </div>
+    </header>
+
+    <div class="contenedor">
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          doloremque sapiente recusandae id assumenda ipsam sequi odit veniam
+          nihil vel ducimus consequatur ullam quas ut nobis placeat culpa,
+          beatae rem?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus rem
+          quaerat delectus ad maxime saepe quod repudiandae possimus nisi atque
+          neque optio molestias sint, corrupti, praesentium, dolor consequuntur
+          tempore nobis.
+        </p>
+      </article>
+      <div class="overLay" id="overLay">
+        <div class="popUp" id="popUp">
+          <a href="#" id="btnCerrarPopup" class="btn-cerrar-popup"
+            ><i class="fas fa-times"></i
+          ></a>
+          <h3>Acceso</h3>
+          <form id="formulario">
+            <div class="contenedorInputs">
+              <input id="user" type="text" placeholder="Id_Usuario" />
+              <input
+                id="pass"
+                type="password"
+                name="pass"
+                placeholder="Login"
+              />
+            </div>
+            <div>
+              <input
+                class="btnSubmit"
+                id="btnSubmit"
+                type="submit"
+                value="Entrar"
+              />
+            </div>
+            <a href="#" class="liks">Olvidé la contraseña</a><br />
+            <a href="#" class="liks">Crear una cuenta</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="javaScript/login.js"></script>
+  </body>
+</html>
